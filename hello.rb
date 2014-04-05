@@ -1,9 +1,11 @@
-p Math.sin(60)
-p Math.cos(0)
-p Math.sqrt(16)
+x = 10
+y = 20
+z = 30
 
-include Math
+volume = x * y * z
+area = 2 * ( x * y + y * z + z * x)
+puts "表面積は",area,"です。"
+puts "体積は",volume,"です。"
 
-p sin(60)
-p cos(0)
-p sqrt(16)
+print "表面積は#{area}です。\n"
+print "体積は#{volume}です。\n"
