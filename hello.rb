@@ -1,12 +1,5 @@
+profile = {:name=>"種市", :tel=>"0120-1111-1111", :address=>"東京", :sex=>"男"}
 
-names = ["ほげ","ほげ","ほげ"]
-
-names[0] = "種"
-names[1] = "市"
-names[2] = "隼"
-names[3] = "兵"
-
-names.each do |name|
-  print name
+profile.each do |key, value|
+  puts "#{key}=>#{value}"
 end
-puts
