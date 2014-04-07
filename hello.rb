@@ -1,5 +1,7 @@
-require "pp"
+x = 0
+$x = 0
 
-keys = {:key1=>"enjoyablfasdfsafsdafe ruby forth", :key2=>"rails レシfasdfasfdピブック", :key3=>"preffasdfafsdect ruby"}
+require "./scope_test"
 
-pp keys
+p x
+p $x
