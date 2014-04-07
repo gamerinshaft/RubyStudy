@@ -1,7 +1,4 @@
-x = 0
-$x = 0
+Test = 1
+Test = 2
 
-require "./scope_test"
-
-p x
-p $x
+p Test
