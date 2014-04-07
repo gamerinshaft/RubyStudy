@@ -1,1 +1,2 @@
-puts "#{/ruby/ =~ "hello ruby"}".to_i + 1
+name = ARGV[0]
+puts "Happy Birthday #{name} !"
