@@ -1,5 +1,5 @@
-require "./grep"
-pattern = Regexp.new(ARGV[0])
-filename = ARGV[1]
+require "pp"
 
-grep(pattern, filename)
+keys = {:key1=>"enjoyablfasdfsafsdafe ruby forth", :key2=>"rails レシfasdfasfdピブック", :key3=>"preffasdfafsdect ruby"}
+
+pp keys
