@@ -1,4 +1,3 @@
-Test = 1
-Test = 2
+end = 1
 
-p Test
+p end
