@@ -1,5 +1,9 @@
-array = [1,[2,3],4]
-a, b, c = array
-print a, b, c, "\n"
-a, (b1, b2), c = array
-print a, b1, b2, c, "\n"
+year = ARGV[0]
+born = year.to_i - 1988
+if born < 0
+  puts "昭和#{64 + born}年生まれ"
+elsif born == 0
+  puts "平成元年生まれ"
+else
+  puts "平成#{born}年生まれ"
+end
