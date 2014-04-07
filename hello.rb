@@ -1,9 +1,6 @@
-first = ARGV[0].to_i
-second = ARGV[1].to_i
+filename = ARGV[0]
 
-
-puts "#{first} + #{second} = #{first + second}"
-puts "#{first} - #{second} = #{first - second}"
-puts "#{first} * #{second} = #{first * second}"
-puts "#{first} / #{second} = #{first / second}"
-puts "#{first} % #{second} = #{first % second}"
+file = File.open(filename)
+text = file.read
+print text
+file.close
