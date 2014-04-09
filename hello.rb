@@ -1,15 +1,11 @@
-num = ARGV[0]
-case num
-when "0"
-  puts "入力された数字は0です。"
-when nil
-  puts "未入力です。"
-else
-  num = num.to_i
-  case num
-  when 0
-    puts "入力された文字は数字ではありません。"
+items = [1, "hoge", nil, 3, "goo", "bar"]
+items.each do |item|
+  case item
+  when String
+    puts "This is String."
+  when Numeric
+    puts "This is Numeric."
   else
-    puts "入力された数字は#{num}です。"
+    puts "This is Something."
   end
 end
