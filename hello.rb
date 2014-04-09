@@ -1,10 +1,3 @@
-filename = ARGV[0]
-file = File.open(filename)
-file.each_line do |text|
-  case text
-  when /^\s/
-  else
-    puts text.object_id
-  end
-end
-file.close
+profile = {:name=>"種市", :sex=>"男", :age=>18}
+puts profile[:age] + 1
+puts profile[:name] + "隼兵"
