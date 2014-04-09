@@ -1,13 +1,10 @@
-items = [1, "hoge", nil, 3.5, "goo", "bar"]
-items.each do |item|
-  puts item.class.ancestors
-
-  case item
-  when String
-    puts "This is String."
-  when Numeric
-    puts "This is Numeric."
+filename = ARGV[0]
+file = File.open(filename)
+file.each_line do |text|
+  case text
+  when /^\s/
   else
-    puts "This is Something."
+    puts text
   end
 end
+file.close
