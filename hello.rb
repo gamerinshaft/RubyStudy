@@ -4,7 +4,7 @@ file.each_line do |text|
   case text
   when /^\s/
   else
-    puts text
+    puts text.object_id
   end
 end
 file.close
