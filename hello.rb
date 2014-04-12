@@ -1,3 +1,3 @@
-7.times do
-  puts "一面の花"
+10.times do |index|
+  puts "#{index + 1}の人"
 end
