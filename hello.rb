@@ -1,3 +1,3 @@
-10.times do |index|
-  puts "#{index + 1}の人"
+for i in 1..5 do
+  puts "#{i}人目の人"
 end
