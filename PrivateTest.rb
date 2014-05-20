@@ -1,6 +1,7 @@
 class PrivateTest
   def pub
     puts "This is public instance_Method"
+
   end
 
   public :pub
